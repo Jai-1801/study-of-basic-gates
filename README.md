@@ -68,7 +68,19 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  Developed by: JAI SURYA .R RegisterNumber: 212223230084
 
- **PROGRAM**
+```
+module Basic (a, b, y1, y2, y3, y4, y5, y6, y7) ;
+input a, b;
+output yl, y2, y3, y4, y5, у6, y7;
+and (yl, a, b) ;
+or (y2, a, b) ;
+not (y3,a) ;
+xor (y4, a, b) ;
+nor (y5, a, b) ;
+nand (y6, a, b) ;
+nor (y7, a, b) ;
+endmodule
+```
  
 ![312524418-91cd9c06-dc03-4c8c-9aca-5f9e3eab0189](https://github.com/Jai-1801/study-of-basic-gates/assets/139335300/2b9b2df4-499a-4454-8850-3746efa456bc)
 
@@ -76,11 +88,11 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
 ![312524944-f9705d15-097d-41f0-938e-727ac8c817fe](https://github.com/Jai-1801/study-of-basic-gates/assets/139335300/40f80c22-6963-49da-ba6b-8a4f9a7e8b96)
 
-**RTL realization** 
+**RTL realization Output** 
 
 ![312525416-523d3d1f-416e-46fc-b087-8e2e92053a69](https://github.com/Jai-1801/study-of-basic-gates/assets/139335300/94994e36-79cf-4cb5-ba01-d2aca6364222)
 
-**Output**
+**RTL**
 
 ![312525723-f207de9e-70e8-480c-805b-7bba6eba26d7](https://github.com/Jai-1801/study-of-basic-gates/assets/139335300/f66fb009-584b-4b5e-848a-e7f9003cef7c)
 
