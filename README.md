@@ -1,4 +1,4 @@
-### study-of-basic-gates
+### EXP : 1 study-of-basic-gates
 
 **AIM:** 
 
